@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>INM420 Rest API - Current Weather</title>
+</head>
+
+<body>
+    <div class="weather-container">
+        <div class="city-selector">
+            <select id="city">
+                <option value="Toronto">Toronto</option>
+                <option value="New York">New York</option>
+                <option value="London">London</option>
+                <option value="Tokyo">Tokyo</option>
+                <option value="Sydney">Sydney</option>
+                <option value="Paris">Paris</option>
+            </select>
+        </div>
+
+        <div id="weather-content">
+            <!-- Weather data will be dynamically inserted here -->
+        </div>
+
+        <div class="last-updated" id="last-updated">
+            <!-- Last updated time will be inserted here -->
+        </div>
+    </div>
+
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
